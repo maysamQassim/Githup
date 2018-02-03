@@ -1,0 +1,235 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+} 
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+} 
+.carousel-caption {
+    text-shadow: 0 1px 4px rgba(0,0,0,.9);
+  font-size:17px
+
+}
+.carousel-caption h3 {
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+}
+
+.carousel-caption p {
+  background: rgba(3,3,3,0.1);
+
+}
+    html,
+    body,
+    .carousel,
+    .carousel-inner,
+    .carousel-inner .item {
+      height: 100%;
+    } 
+    .item:nth-child(1) {
+      background: url('https://upload.wikimedia.org/wikipedia/commons/0/0d/ECB_Frankfurt_with_Skyline.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+    }
+
+    .item:nth-child(2) {
+      background: url('http://mastersonlineempresa.uc3m.es/dropbox/Businessman-touching-financial-dashboard-with-kpi-000073271969_Full.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+    }
+
+    .item:nth-child(3) {
+      background: url('http://www.kinyu-z.net/data/wallpapers/30/805191.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+    }
+
+
+  /*End Section About */
+
+  .features {
+   background:#EEE;
+   padding-top: 60px;
+   padding-bottom: 60px;
+  }
+
+.features .feat{
+  margin-bottom: 30px
+}
+  .features .feat p{
+    line-height: 2em;
+  }
+.features .feat span.glyphicon{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.About {
+  min-height: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px
+}
+.About .lead {
+  color: #888;
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+/*Star Section News  */
+
+.news {
+  background:#EEE ;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.news h1 {
+ margin-bottom: 40px;
+
+}
+
+.news .News-box{
+  background:#FFF;
+  padding: 10px;
+  border: 1px solid #DDD;
+  margin-bottom: 30px;
+
+
+}
+.news .News-box img{
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+
+}
+
+/* Start our Client */
+.our-clinets{
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+.our-clinets img {
+  opacity: 0.5;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: all 0.4s ease-in-out;
+
+}
+
+.our-clinets img:hover {
+  opacity: 1
+}
+
+/*start Footer */
+
+.footer {
+  background-color: #333;
+  color: #AAA;
+  padding-top: 30px;
+}
+
+.footer a { color: #AAA}
+
+.footer a:hover { color: #FFF}
+
+.footer .social-link
+{
+  overflow: hidden;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+
+}
+
+.footer .social-link li {
+  float: left;
+  margin-right: 4px;
+  margin-left: 4px;
+  opacity: 0.7;
+
+}
+.footer .social-link li:hover {
+  opacity: 1;
+  transition: all 0.4s ease-in-out;
+}
+
+.media img{
+  margin-top: 15px;
+
+}
+
+
+.useful-link li {
+ 
+  margin-top: 15px;
+  margin-bottom: 15px;
+   opacity: 0.7;
+
+}
+
+.useful-link li:hover{
+  opacity: 1;
+  transition: all 0.6s ease-in-out;
+}
+
+.footer .copyright {
+background:#111;
+color: #AAA;
+padding: 20px 0;
+margin-top: 30px;
+font-size: 18px;
+}
+    /* End Footer */
+
+
+    /* Start Contuct */
+    .Contuct {
+      margin-top: 40px;
+      padding-right: 10px;
+      padding-left: 10px;
+      margin-left: 10px;
+    }
